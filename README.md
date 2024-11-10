@@ -1,17 +1,13 @@
 Portable C Compiler
 ===================
 
-This is a copy of the Portable C Compiler source from http://pcc.ludd.ltu.se/
+BSD licensed. Forked from IanHarvey/pcc, who saved a copy of the Portable C Compiler source code from http://pcc.ludd.ltu.se/.
 
-The source history was imported from a CVS snapshot, `pcc-cvs-20180920.tgz` from http://pcc.ludd.ltu.se/ftp/pub/pcc/,
-using the `cvs2git` tools.
+I created this fork because I want to build pcc for Windows, but pcc lacks a cmake build system. I've started work on creating a cmake build system using cmaker, but still have more to do before it will build. I haven't tried building using configure build system, but it is still here if you wish to give it a try.
 
-Please note: *THIS IS NOT MY CODE!* It's here purely as a way to make this interesting codebase
-more accessible. I'm not intending to make a fork of `pcc` or to become its maintainer.
+Thank you to Jakub Łukasiewicz, who made me think of pcc with his "C, the lingua franca of programming" website:
 
-Hence *I am unable to fix any problems* arising from this code, except possibly those relating
-to the CVS import.
+https://jorenar.com/c-website-demo/
 
-The source is BSD licensed. Please see `COPYING` for the exact terms.
-
-
+Robin Rowe
+2024/11/10
